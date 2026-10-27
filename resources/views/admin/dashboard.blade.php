@@ -10,6 +10,10 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     <h3 class="text-lg font-semibold mb-4">Statistik Pengguna</h3>
+                    <a href="{{ route('admin.users.index') }}"
+                        class="inline-block mb-4 px-4 py-2 bg-blue-600 text-white rounded-md">
+                        Kelola User
+                    </a>
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                         <div class="bg-blue-100 p-4 rounded-lg">
